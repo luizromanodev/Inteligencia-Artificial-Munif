@@ -1,4 +1,4 @@
-## Classificador Naive Bayes (Suavização de Laplace $\alpha = 1$)
+## Exercícios - Naive Bayes
 
 ### 1. Tabela de Contagens e Probabilidades Suavizadas
 
@@ -18,14 +18,14 @@
 
 **Paciente:** Idade = infantil, Diagnóstico = hipermetropia, Astigmatismo = não, Taxa lacrimal = reduzida.
 
-**Cálculos dos Scores (Probabilidade a Priori $\times$ Produtório das Condicionais):**
+**Cálculos dos Scores:**
 
 - **Nenhuma:** $\left(\frac{3}{15}\right) \times \left(\frac{2}{6}\right) \times \left(\frac{2}{5}\right) \times \left(\frac{3}{5}\right) \times \left(\frac{4}{5}\right) = 0,01280$
 - **Gelatinosa:** $\left(\frac{8}{15}\right) \times \left(\frac{3}{11}\right) \times \left(\frac{5}{10}\right) \times \left(\frac{6}{10}\right) \times \left(\frac{3}{10}\right) \approx 0,01309$
 - **Dura:** $\left(\frac{4}{15}\right) \times \left(\frac{2}{7}\right) \times \left(\frac{3}{6}\right) \times \left(\frac{2}{6}\right) \times \left(\frac{1}{6}\right) \approx 0,00212$
 
 **Normalização das Probabilidades:**
-Soma dos Scores $= 0,02801$
+0,02801$
 
 - $P(\text{Nenhuma}) = \frac{0,01280}{0,02801} \approx \mathbf{45,70\%}$
 - $P(\text{Gelatinosa}) = \frac{0,01309}{0,02801} \approx \mathbf{46,73\%}$
